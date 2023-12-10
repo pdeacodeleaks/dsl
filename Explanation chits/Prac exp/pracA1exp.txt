@@ -1,0 +1,51 @@
+1.	average Function:
+•	Takes a list listofmarks as input.
+•	Calculates the total and average marks of students excluding the marks set as -999.
+•	Prints the total marks and the average marks with two decimal places.
+2.	Maximum Function:
+•	Takes a list listofmarks as input.
+•	Finds and returns the highest mark in the list excluding marks set as -999.
+3.	Minimum Function:
+•	Takes a list listofmarks as input.
+•	Finds and returns the lowest mark in the list excluding marks set as -999.
+4.	absentcount Function:
+•	Takes a list listofmarks as input.
+•	Counts and returns the number of students marked as absent (marks set as -999).
+5.	maxFrequency Function:
+•	Takes a list listofmarks as input.
+•	Prints the frequency of each mark in the list.
+•	Finds and returns the mark with the highest frequency and the corresponding frequency.
+6.	Input of Marks for Students:
+•	Takes the total number of students as input.
+•	Reads marks for each student and appends them to the marksinFDS list.
+7.	Menu-Driven Program:
+•	Presents a menu with options:
+•	1. Total and Average Marks of the Class:
+•	Calls the average function.
+•	2. Highest and Lowest Marks in the Class:
+•	Calls the Maximum and Minimum functions.
+•	3. Number of Students Absent for the Test:
+•	Calls the absentcount function.
+•	4. Marks with Highest Frequency:
+•	Calls the maxFrequency function.
+•	5. Exit:
+•	Exits the program.
+8.	Loop to Continue or Exit:
+•	The program runs in a loop based on the user's choice.
+•	After executing the selected option, the user is prompted to continue or exit the program.
+This program allows the user to perform various operations on a list of student marks, providing statistics such as average, highest and lowest marks, number of absent students, and marks with the highest frequency.
+
+Algorithm:
+1. Define functions for different operations:
+   - average(listofmarks): Calculate the total and average marks for the class.
+   - Maximum(listofmarks): Find the highest score in the class.
+   - Minimum(listofmarks): Find the lowest score in the class.
+   - absentcount(listofmarks): Count the number of students absent for the test.
+   - maxFrequency(listofmarks): Find the marks with the highest frequency and display the frequency distribution.
+
+2. Initialize an empty list marksinFDS to store the marks of students.
+
+3. Take user input for the total number of students and their marks.
+
+4. Use a while loop with a menu-driven interface to allow the user to choose between different operations or exit the program.
+

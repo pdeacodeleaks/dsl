@@ -1,0 +1,36 @@
+1. Matrix Operations Functions
+1.1 add_matrices(matrix1, matrix2)
+•	Takes two matrices as input (matrix1 and matrix2).
+•	Returns a new matrix that is the result of element-wise addition of the input matrices.
+1.2 subtract_matrices(matrix1, matrix2)
+•	Takes two matrices as input (matrix1 and matrix2).
+•	Returns a new matrix that is the result of element-wise subtraction of the second matrix from the first.
+1.3 multiply_matrices(matrix1, matrix2)
+•	Takes two matrices as input (matrix1 and matrix2).
+•	Returns a new matrix that is the result of matrix multiplication of the input matrices.
+1.4 transpose_matrix(matrix)
+•	Takes a matrix as input.
+•	Returns a new matrix that is the transpose of the input matrix.
+2. Example Matrices
+•	Initializes two example matrices matrix_a and matrix_b.
+3. Matrix Operations
+3.1 Addition (addition_result)
+•	Calls add_matrices with matrix_a and matrix_b.
+•	Prints the result of matrix addition.
+3.2 Subtraction (subtraction_result)
+•	Calls subtract_matrices with matrix_a and matrix_b.
+•	Prints the result of matrix subtraction.
+3.3 Multiplication (multiplication_result)
+•	Calls multiply_matrices with matrix_a and matrix_b.
+•	Prints the result of matrix multiplication.
+3.4 Transpose (transpose_result_a and transpose_result_b)
+•	Calls transpose_matrix with matrix_a and matrix_b.
+•	Prints the transpose of each matrix.
+4. Display Results
+•	Prints the results of each matrix operation.
+Note:
+•	The matrix operations are implemented using list comprehensions, making the code concise.
+•	The example matrices are simple for illustration purposes, but the functions can handle matrices of different sizes.
+•	Matrix multiplication is implemented using nested list comprehensions and the sum function.
+•	Transposition is achieved by swapping rows and columns using list comprehensions.
+

@@ -1,0 +1,38 @@
+1.	Quicksort Function (quicksort):
+•	Implements the quicksort algorithm to sort the given list Percentage in ascending order.
+•	The function takes three parameters: Percentage (the list to be sorted), start (the starting index of the sublist), and end (the ending index of the sublist).
+•	It recursively partitions the sublist around a pivot and sorts the resulting sublists.
+2.	Partition Function (partition):
+•	Helper function for the quicksort algorithm.
+•	Chooses a pivot (in this case, the first element of the sublist).
+•	Reorganizes the elements in the sublist such that elements smaller than the pivot are on the left, and elements greater than the pivot are on the right.
+•	Returns the index where the pivot belongs in the sorted list.
+3.	Main Section:
+•	Takes input for the total number of students (number) and their percentages.
+•	Calls the quicksort function to sort the list of percentages.
+•	Prints the sorted list of percentages.
+4.	Displaying the Top Five Scores:
+•	Prints the top five scores from the sorted list.
+•	Calculates the index range for the top five scores.
+•	Iterates through this range and prints the corresponding scores.
+5.	Note:
+•	The code uses the quicksort algorithm to efficiently sort the percentages.
+•	It then displays the entire sorted list and the top five scores.
+
+Algorithms:
+1. Define the quicksort function that takes the list Percentage, the starting index start, and the ending index end as parameters.
+
+2. Define the partition function that takes the list Percentage, the starting index start, and the ending index end as parameters. This function is used to partition the list for the quicksort.
+
+3. Create an empty list Percentage to store the percentages.
+
+4. Take user input for the total number of students and their percentages.
+
+5. Call the quicksort function to sort the list of percentages in descending order.
+
+6. Print the sorted list of percentages.
+
+7. Print the top five scores by slicing the list.
+
+8. Print the top scorers from the list.
+

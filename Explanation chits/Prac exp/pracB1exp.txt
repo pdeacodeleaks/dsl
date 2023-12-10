@@ -1,0 +1,37 @@
+1.	Initialization:
+•	The program initializes an empty list called list_att with some initial values.
+2.	Add Attendee Function:
+•	Allows the user to input a roll number and appends it to the list.
+3.	Display Function:
+•	Prints the current list of attendees.
+4.	Linear Search Function:
+•	Searches for a roll number in the list using linear search.
+5.	Sentinel Search Function:
+•	Searches for a roll number in the list using sentinel search.
+6.	Menu Function:
+•	Displays a menu with different options.
+7.	Main Loop:
+•	Runs an infinite loop where the user can choose options from the menu.
+•	Options include adding an attendee, displaying the list, performing linear or sentinel search, direct search, or exiting the program.
+
+Algorithm:
+1. Initialize an empty list list_att to store attendance rolls.
+
+2. Define functions for adding an attendee (addAttendy), displaying the attendance list (display), Linear Search (LinearSearch), Sentinel Search (sentinel), and a menu function (menu).
+
+3. Enter an infinite loop (while(1)) to continuously display the menu and process user input.
+
+4. Based on the user's choice, perform the corresponding action:
+
+   a. If the choice is 1, add an attendee to the list.
+
+   b. If the choice is 2, display the current list of attendees.
+
+   c. If the choice is 3, perform a Linear Search on the attendance list.
+
+   d. If the choice is 4, perform a Sentinel Search on the attendance list.
+
+   e. If the choice is 5, perform a Direct Search on the attendance list.
+
+   f. If the choice is 0, exit the program.
+

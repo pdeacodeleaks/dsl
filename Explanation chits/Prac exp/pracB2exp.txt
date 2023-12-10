@@ -1,0 +1,60 @@
+1.	Selection Sort Function (Selection_Sort):
+•	Implements the selection sort algorithm to sort the given list of marks in ascending order.
+•	Finds the minimum element in the unsorted portion and swaps it with the first element in that portion.
+•	Iterates through the entire list until the entire list is sorted.
+2.	Bubble Sort Function (Bubble_Sort):
+•	Implements the bubble sort algorithm to sort the given list of marks in ascending order.
+•	Repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
+•	The process is repeated until the entire list is sorted.
+3.	Top Five Marks Function (top_five_marks):
+•	Displays the top five marks from the sorted list (assuming it's sorted in ascending order).
+•	Prints the marks in descending order.
+4.	Main Section:
+•	Takes input for the number of students (n) and their respective marks.
+•	Displays the original list of marks.
+•	Presents a menu with options:
+•	Option 1: Performs selection sort on the marks.
+•	Option 2: Performs bubble sort on the marks.
+•	Option 3: Exits the program.
+•	After sorting, it prompts the user if they want to display the top five marks from the sorted list.
+•	Handles invalid choices and exits the program if needed.
+5.	Note:
+•	The code ensures that the user enters valid choices and provides options to display the top marks after sorting.
+
+Algorithm:
+1. **Selection Sort Function (Selection_Sort):**
+   - Input: marks (list of student marks)
+   - Output: Prints the sorted marks in ascending order.
+   - Algorithm:
+     - Iterate through each element in the list (marks).
+     - For each element, find the index of the minimum element in the remaining unsorted portion of the list.
+     - Swap the current element with the minimum element.
+     - Continue this process until the entire list is sorted.
+     - Print the sorted marks.
+
+2. **Bubble Sort Function (Bubble_Sort):**
+   - Input: marks (list of student marks)
+   - Output: Prints the sorted marks in ascending order.
+   - Algorithm:
+     - Iterate through each element in the list (marks).
+     - For each element, traverse the list from the beginning to the end and swap adjacent elements if they are in the wrong order.
+     - Continue this process until the entire list is sorted.
+     - Print the sorted marks.
+
+3. **Top Five Marks Function (top_five_marks):**
+   - Input: marks (list of student marks)
+   - Output: Prints the top five marks in descending order.
+   - Algorithm:
+     - Print the top five marks by reversing the sorted marks list.
+
+4. **Main Program (main):**
+   - Input: Takes user input for the number of students and their marks.
+   - Output: Executes sorting functions based on user choice and displays the top marks if requested.
+   - Algorithm:
+     - Initialize an empty list marks to store the student marks.
+     - Take user input for the number of students and their marks.
+     - Display the menu and process user choices in a loop until the user chooses to exit.
+     - If the user selects option 1, perform Selection Sort on the marks list and ask if the user wants to display top marks.
+     - If the user selects option 2, perform Bubble Sort on the marks list and ask if the user wants to display top marks.
+     - If the user selects option 3, exit the program.
+

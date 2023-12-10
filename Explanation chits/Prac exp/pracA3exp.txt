@@ -1,0 +1,41 @@
+1.	Display Banner:
+•	Prints a banner with asterisks and slashes to visually represent the bank account system.
+2.	Initialization:
+•	Initializes the balance (bal) to zero.
+3.	Transaction Loop:
+•	Enters an infinite loop to continuously accept transactions.
+4.	User Input:
+•	Takes user input in the format "D/W" where:
+•	"D" stands for deposit.
+•	"W" stands for withdrawal.
+5.	Transaction Processing:
+•	Splits the user input into operation (op) and amount (amt).
+•	If the operation is "D" (deposit):
+•	Adds the amount to the balance.
+•	Prints the net balance.
+•	If the operation is "W" (withdrawal):
+•	Checks if the withdrawal amount is greater than the balance.
+•	If yes, prints "Insufficient Amount" and the net balance.
+•	If no, subtracts the amount from the balance and prints the net balance.
+•	If the operation is neither "D" nor "W", prints "Invalid Choice."
+6.	Infinite Loop:
+•	The program continues to prompt the user for transactions until manually interrupted.
+This program models a simple banking system allowing deposits and withdrawals while maintaining a running balance.
+
+Algorithm:
+1. **Initialize balance (bal) to 0:**
+
+2. *Enter an infinite loop to continuously prompt the user for transactions:*
+
+3. *Display a menu and take user input for a transaction:*
+
+4. *Print the transaction type and amount:*
+
+5. **Check if the user wants to exit (E or e). If yes, break out of the loop:**
+
+6. *Convert the amount to a float and update the balance based on the transaction type:*
+
+7. *Print the updated balance after each transaction:*
+
+8. *Repeat the loop until the user chooses to exit.*
+
