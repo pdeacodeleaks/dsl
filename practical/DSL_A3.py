@@ -11,24 +11,26 @@ D 100
 Then, the output should be: 500
 
 '''
+#Program A3 DSL
+bal=0
+#input transaction Log D 300 W 200
 
-print("*"*40)
-print("/"*10,"BANK ACCOUNT SYSTEM","/"*10)
-bal = 0
-while True:
-    x=input("Enter transaction in format(D/W) : ")
-    tran=x.split(" ")
-    op=tran[0]
-    amt=int(tran[1])
-    if op=="D":
-      bal+=amt 
-      print("Net Balance: ",bal)
-    elif op=="W":
-      if (amt>bal):
-        print("Insufficient Amount")
-        print("Net Balance: ",bal)
-      else:
-        bal-=amt 
-        print("Net Balance: ",bal)
+while(1):
+    trans=input("MENU:\nD 300\nW 300\nE exit\nEnter Tranaction:")
+    t=trans.split(" ")
+
+    print(t[0], t[1])
+    if(t[0]=='E') or(t[0]=='e'):
+        break
+
+    amt=float(t[1])
+
+
+
+    if(t[0]=='D'):
+        bal=bal+amt
+    elif(t[0]=='W')and(bal>=amt):# Widthraw bal> amt to withdraw
+        bal=bal-amt
     else:
-      print("Invalid Choice.")
+        print("Insufficient Amount cannot withdraw")
+    print("Balance:",bal)
