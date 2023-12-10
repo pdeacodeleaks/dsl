@@ -1,6 +1,6 @@
 **WARNING!**
 
-Dont leak **_Pdeacodeleaks_**
+Dont leak **_Pdea-code-leaks_**
 
 **Garibo Lelo _Technical Books_ for oral:-**
 [Technical Books For SE](https://drive.google.com/drive/u/0/folders/18RrPoSQJWgfRnYKSRpQKT4qBAksKW2YI)
