@@ -2,7 +2,7 @@
 
 Dont leak **_Pdea-code-leaks_**
 
-###Note:
+##Note:
 If you get a code in form of chits then open chits folder and access codes.
 If you get practical like A1,A2,B1, etc then open practical folder.
 For explanation of code click on Explanation chits in which you get 2 folders for chits open chits folder and for practical open practical folder.
